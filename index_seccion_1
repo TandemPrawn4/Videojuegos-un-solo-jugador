@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Red dead Redemption 2</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Joti+One&display=swap" rel="stylesheet">
+
+	<style> nav img {margin-bottom: 50px;}
+		footer img {margin: 0px 36px;}  
+		div#ContenidoDeLaPagina{width: 272px; margin: 0 auto; background-color: #737373; padding: 30px 150px 8px;}
+		div#ContenidoDeLaPagina {padding: 8px 34px;}
+		
+		/* --- Inicia el estilo del manú de hamburguesa ---*/
+		#check {display: none;}
+		nav{display: none;}
+		#check:checked ~ nav {
+    display: block;
+}
+		
+		/* --- Así se ve el btn de hamburguesa ---*/
+		
+		#btn-hamburguesa {
+			display: block;
+			text-align: center;
+			font-size: 1.2em;
+			cursor: pointer;
+			background-color: black;
+			color: white;
+			padding: 5px;
+			width: 402px;
+			margin: 10px auto;
+			border-radius: 8px;
+		}
+		
+	</style>
+</head>
+<!--margin-top: 50px;-->
+<body style="background-color: #4c4c4c;">
+	
+	<header style="background-color: #000000; color:#FFFFFF; text-align: center; padding: 36px;"> 
+		
+	    <a href="Index.html"><img src="../Maqueta Reseña/Imagenes/Casa.png" alt="adorno que se usa para regresar a la página principal"/></a>
+		<h1 style="font-size: 3em; font-family:Joti One, serif;">Red dead Redemption 2</h1> 
+	</header>
+	  
+	<input type="checkbox" id="check">
+		<label for="check" id="btn-hamburguesa"> ☰ </label>
+	
+	<nav style="text-align: center; margin-top: 50px">
+		<a href="Index_seccion_2.html"><img src="../Maqueta Reseña/Imagenes/Elden Ring BTN.png" alt="Imagen que te manda a la página informativa del videojuego Elden Ring;"/></a>
+		<a href="Index_seccion_3.html"><img src="../Maqueta Reseña/Imagenes/Persona 5 Royal BTN.png" alt="Imagen que te manda a la página informativa del videojuego Persona 5 Royal;"/></a><br>
+	</nav>
+	
+	<div id="ContenidoDeLaPagina"> 
+	<img src="../Maqueta Reseña/Imagenes/Red Dead Redemption 2 BTN G.png" alt="Imagen portada del videojuego Red dead Redemption 2"/>
+	<h2 style= "font-family: Gemunu Libre, sans-serif;"> Red dead Redemption 2: Sipnosis</h2>
+	<p style= "font-family: Gemunu Libre, sans-serif;">Red Dead Redemption 2 es un videojuego de acción y aventura ambientado en el lejano oeste estadounidense en 1899. La historia sigue a Arthur Morgan, un forajido miembro de la banda Van der Linde, que debe sobrevivir mientras la era del Salvaje Oeste llega a su fin. Tras un atraco que sale mal, él y su banda son perseguidos por agentes del gobierno y cazarrecompensas a través de un enorme mundo abierto lleno de personajes memorables y peligros.</p>
+	<!--p: significa parrafo-->
+	<h3 style= "font-family: Gemunu LIbre, sans-serif;"> Información</h3>
+	<ul>
+		<li><strong>Fecha de lanzamiento:</strong><br>
+		°26 de octubre de 2018 PlayStation 4 y Xbox One <br>
+°5 de noviembre de 2019 para PC y otras versiones posteriores<!--li: es colocarlos en forma de lista--></li>
+		<li><strong>Duración:</strong></li>
+		Puede llegar 48 a  más de 180 horas.
+		<li><strong>Calificación:</strong></li>
+		Reseñas muy positivas (92%)
+		<li><strong>Desarrollador:</strong></li>
+		Rockstar Games
+		<li><strong>Plataformas:</strong></li>
+		Play Station 4/5<br>
+Xbox One/Series s/X<br>
+PC/Windows
+	</ul> <!--ol: es colocar una lista/ ul es para las listas que no necesiten enumeracion-->
+	</div>
+	
+</body>
+		<footer style="text-align: end; background-color: #000000; margin-top: 200px; padding: 36px;"> <!--margin se usa para el como separador, no margen-->
+		<a href="http://www.x.com" alt="Liga para entrar a X " target="_blank"><img src="../Maqueta Reseña/Imagenes/Logo_X.png" alt="Logo o boton que llava a la red social X"/></a><!--blank es para abrirlo en una pesataña nueva del link--> <!--La X final es para colocar el vinculo que lo llevara al sitio--> 
+		<a href="http://www.pinterest.com" alt="Liga para entrar a pinterest" target="_blank"><img src="../Maqueta Reseña/Imagenes/Logo_Pinterest.png" alt="Logo o boton que lleva a la red social de Pinterest"/></a>
+			<a href="http://www.instagram.com" alt="Liga para entrar a instagram" target="_Blank"><img src="../Maqueta Reseña/Imagenes/Logo_Intagram.png" alt="Logo o boton que lleva a la red social Instagram"/></a>
+	</footer>
+</html>
